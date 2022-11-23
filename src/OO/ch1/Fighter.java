@@ -1,6 +1,6 @@
-package OO.ch1;
+package OO.ch1.c2;
 
-public class Fighter {
+import OO.ch1.ch1.Main;public class Fighter {
     private String name;
     private float health;
     private float damagePerAttack;
@@ -10,7 +10,7 @@ public class Fighter {
         this.health=health;
         this.damagePerAttack=damagePerAttack;
     }
-    public void attack(Fighter opponent)
+    public void attack(Main.Fighter opponent)
     {
         opponent.health=opponent.health-this.damagePerAttack;
     }

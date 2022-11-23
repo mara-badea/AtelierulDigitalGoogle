@@ -1,7 +1,5 @@
 package OO.ch1;
 
-import OO.ch1.Fighter;
-
 public class BoxingMatch {
     private Fighter opponent1;
     private Fighter opponent2;

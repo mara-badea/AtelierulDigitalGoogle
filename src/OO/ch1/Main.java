@@ -1,8 +1,5 @@
 package OO.ch1;
 
-import OO.ch1.BoxingMatch;
-import OO.ch1.Fighter;
-
 public class Main {
     public static void main(String[] args)
     {

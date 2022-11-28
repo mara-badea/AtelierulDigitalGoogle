@@ -5,19 +5,28 @@ public class Main {
     {
             for (int i = 1; i<=100;i++)
             {
-                if(i%3==0&&i%15!=0)
+                if(i%3==0&&i%5==0)
+                {
+                    System.out.println("FizzBuzz");
+                    continue;
+                }
+                else if(i%3==0)
                 {
                     System.out.println("Fizz");
                     continue;
                 }
-                else if(i%5==0&&i%15!=0)
+                else if(i%5==0)
                 {
                     System.out.println("Buzz");
                     continue;
                 }
-                else if((i%3==0)&&(i%5==0))
+                else if (i%7==0) {
+                    System.out.println("Rizz");
+                    continue;
+                }
+                else if(i%11==0)
                 {
-                    System.out.println("FizzBuzz");
+                    System.out.println("Jazz");
                     continue;
                 }
                 else

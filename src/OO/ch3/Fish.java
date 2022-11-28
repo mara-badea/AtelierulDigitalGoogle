@@ -1,4 +1,4 @@
-package OO.ch2;
+package OO.ch3;
 
 public class Fish extends Animal implements Pet
 {

@@ -1,5 +1,7 @@
 package patterns.builder;
 
+import patterns.builder.Computer;
+
 public class Main {
     public static void main(String[] args) {
         //Computer computer = new Computer("16GB", true, "1TB", "RTX2060" , "I7" , "Dolby");

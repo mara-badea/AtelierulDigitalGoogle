@@ -1,2 +1,4 @@
-package patterns.strategy;public class Main {
+package patterns.strategy;
+
+public class Main {
 }

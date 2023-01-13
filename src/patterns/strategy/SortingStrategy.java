@@ -1,2 +1,6 @@
-package patterns.strategy;public interface SortingStrategy {
+package patterns.strategy;
+
+public interface SortingStrategy
+{
+    public void sort(Integer[] list);
 }

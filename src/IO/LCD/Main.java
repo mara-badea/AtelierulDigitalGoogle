@@ -1,4 +1,4 @@
-package OO.LCD;
+package IO.LCD;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

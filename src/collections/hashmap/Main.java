@@ -1,2 +1,4 @@
-package collections.hashmap;public class Main {
+package collections.hashmap;
+
+public class Main {
 }

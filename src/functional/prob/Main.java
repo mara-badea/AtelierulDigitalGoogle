@@ -1,19 +1,22 @@
 package functional.prob;
 
-import java.util.stream.Stream;
-import java.util.*;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.stream.Stream;
 
-public class Reader {
-    Stream <String> reader;
-    String adresa= "C:\\Users\\badea\\IdeaProjects\\AtelierulDigitalGoogle\\src\\functional\\prob\\text.txt";
-    Integer count = reader
-            .lines(adresa)
-            .flatMap(line->{
-                return Stream.of(line.split(" "));
-                    })
-            .count();
+public class Main {
+    public static void main(String[] args) throws FileNotFoundException {
+        String adresa= "C:\\Users\\badea\\IdeaProjects\\AtelierulDigitalGoogle\\src\\functional\\prob\\text.txt";
+        BufferedReader reader= new BufferedReader(new FileReader(adresa));
+        long count = reader
+                .lines()
+                .flatMap(line->{
+                    //System.out.println(line);
+                    return Stream.of(line.split("\n"));
+                })
+                .count();
+        System.out.println(count);
+    }
+
 }

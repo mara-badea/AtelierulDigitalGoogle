@@ -43,9 +43,13 @@ O clasa **BuyOneGetOneFree** care este una din subclasele superclasei **Promotio
 
 O interfata **Handler** cu o metoda **applyPromotions** ce ia ca argument un obiect de tip Item;
 
+***
+
 O clasa **PromotionHandler** care implementeaza interfata **Handler** ce contine:   
 
 - un constructor ce realizeaza ordinea in care se aplica promotiile;
 - metoda **applyPromotions** ce seteaza pretul cosului in functie de numarul de produse, seteaza promotia curenta ca fiind prima promotie setata in constructorul anterior, si aplica promotiile pana cand gaseste o promotie nula;     
+
+***
 
 Clasa Main in care se realizeaza testarea
